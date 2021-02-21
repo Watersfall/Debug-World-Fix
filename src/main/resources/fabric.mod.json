@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "debug_world_fix",
+	"version": "${version}",
+	"name": "Debug World Fix",
+	"description": "Fixes debug worlds to use modded blocks",
+	"authors": [
+		"Watersfall"
+	],
+	"contact": {
+		"website": "https://github.com/Watersfall/"
+	},
+	"license": "MIT",
+	"icon": "assets/debug_world_fix/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"debug_world_fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.11.1",
+		"minecraft": "1.16.5"
+	}
+}

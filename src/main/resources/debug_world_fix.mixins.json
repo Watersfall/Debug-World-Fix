@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.watersfall.debug_fix.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"DebugChunkGeneratorMixin"
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
